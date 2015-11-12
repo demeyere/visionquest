@@ -1,13 +1,133 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 <head>
 <meta charset="utf-8">
-<title>...</title>
+<title>Douglas Beasley / Vision Quest : common graphic elements</title>
+<link rel="stylesheet" type="text/css" href="CezanneWebKit/MyFontsWebfontsKit.css">
+
+<style>
+body {background-image:url('content-bg3.jpg'); background-color: #d2c4a1;}
+div#nav {
+  position: absolute; top:15px; left: 15px;}
+
+div.nav-list {
+  margin: 5px 0 0 2px;
+  font-family: "katarine-web",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 17px;
+}
+a {color:#333333; text-decoration: none;}
+a:hover {color:#cc3300; text-decoration: none;}
+
+div.nav-list blockquote {padding:0; margin:0 0 0 8px;}
+
+div.notes {
+  margin: 50px 100px 50px 150px;
+  font-family: "katarine-web",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.P22Cezanne-Regular { 
+	font-family: P22Cezanne-Regular;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.tkKatrinaWeb-Regular {
+  font-family: "katarine-web",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h2 {color:#898068;}
+
+</style>
+
+<script type="text/javascript" src="http://use.typekit.com/vwg4bop.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<style type="text/css">
+.slideshow { height: 206px; width: 530px;}
+.slideshow img {  }
+</style>
+<!-- include jQuery library -->
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="jquery.cycle.all.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.slideshow').cycle({
+		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+	});
+});
+</script>
+
 </head>
 
-<body>
+<body id="com.demeyere">
 
+<div id="nav" class="">
+<a href="/"><img src="vq-chop-on-paper-blend.gif" alt="" width="" height="" /></a>
+
+<div id="" class="nav-list">
+
+<a href="#">PORTFOLIOS</a><br/>
+<a href="#">VQ WORKSHOPS</a><br/>
+<a href="#">STORE</a><br/>
+<a href="#">INFO</a><br/>
+<blockquote>
+<a href="#">ABOUT DOUG</a><br/>
+<a href="#">NEWS</a><br/>
+<a href="#">GALLERIES</a><br/>
+</blockquote>
+<a href="#">BLOG</a><br/>
+<a href="#">CONTACT</a><br/>
+
+</div>
+</div>
+
+<div class="notes">
+<img src="earth-meets-spirit.png" alt="" width="" height="" />
+
+
+<h2>slideshow</h2>
+<div class="slideshow">
+		<img src="slides/1.jpg" width="530" height="200" />
+		<img src="slides/2.jpg" width="530" height="200" />
+		<img src="slides/3.jpg" width="530" height="200" />
+		<img src="slides/4.jpg" width="530" height="200" />
+		<img src="slides/5.jpg" width="530" height="200" />
+</div>
+
+<h2>div#navigation</h2>
+<p>The navigation on the side is now just HTML text. </p>
+
+<h2>files</h2>
+<p>Background Image is file:content-bg3.gif (will be renamed appropriately if approved). The page background will tile to fill whatever area we want it to. I took the background image from douglasbeasley.com/contact.html because I liked the color better. I feel that it the other is too yellow. Feedback?</p>
+<p><img src="vq-chop-on-paper-blend.gif" alt="" width="" height="" /> file: vq-chop-on-paper-blend.gif</p>
+
+<h2>fonts</h2>
+<p style="font-size:36px; margin:35px 0 0 0; padding:0; color:#cc3300;" class="tkKatrinaWeb-Regular">Katrina Web</p>
+<p><strong>Katarine Web</strong> via TypeKit subscription.</p>
+<p style="font-size:36px; margin:35px 0 0 0; padding:0; color:#cc3300;" class="P22Cezanne-Regular">P22 Cezanne Regular</p>
+<p><strong>Cezanne</strong> hosted web-font.</p>
+
+
+<h2>colors</h2>
+<div style="width:300px; height:50px; background-color:#cc3300"></div>
+<p>Hanko ink : #CC3300;</p>
+
+<div style="width:300px; height:50px; background-color:#D2C4A1; border:1px solid black;"></div>
+<p>VQ Paper Blend : The paper blends to a color of #D2C4A1 which can be used as a matte when you have imagery that has transparent edges.</p>
+
+
+</div>
 
 
 </body></html>
